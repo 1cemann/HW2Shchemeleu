@@ -7,7 +7,7 @@ using static System.Console;
 
 Clear();
 
-Console.Write("Введите трехзначное число: ");
+Write("Введите трехзначное число: ");
 int number = Convert.ToInt32(ReadLine());
 WriteLine(number);
 

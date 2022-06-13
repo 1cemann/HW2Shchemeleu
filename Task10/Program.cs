@@ -9,10 +9,10 @@ using static System.Console;
 
 Clear();
 
-Console.Write("Введи трёхзначное число: ");
+Write("Введи трёхзначное число: ");
 int threeDigitNumber = Convert.ToInt32(Console.ReadLine());
 string stringNumber = Convert.ToString(threeDigitNumber);
-Console.WriteLine("вторая цифра этого числа это "+stringNumber[1]);
+WriteLine("вторая цифра этого числа это "+stringNumber[1]);
 
 // Очень важный вопрос,надеюсь вы мне ответите. Я пытался сделать задачу закоментированным ниже способом, но в ответе постоянно выбивает нули, и я сам не могу разобраться почему.Надеюсь вы обьясните.
 //Write("Type the three-digit number ");
